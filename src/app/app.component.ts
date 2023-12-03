@@ -4,6 +4,7 @@ import { RouterOutlet } from "@angular/router";
 //On vient importer la constante avec les données
 import { POKEMONS } from "./mock-pokemon-list";
 import { Pokemon } from "./pokemon";
+
 @Component({
   selector: "app-root",
   standalone: true,
@@ -42,7 +43,7 @@ export class AppComponent implements OnInit {
     }
   }
 }
-//L'utilisateur saisi un nombre dans le template, celui ci est détesté cote composant par la méthode selectPokemon,
+//L'utilisateur saisi un nombre dans le template, celui ci est détecté cote composant par la méthode selectPokemon,
 //qui va mettre à jour dans la méthode pokemonSelected,
 //ensuite cette propriété est poussée dans le template grâce à l'interpolation au niveau pokemonselected
 //
